@@ -1,7 +1,0 @@
-lcc/api/TalkingClockController.class
-lcc/api/DTO/HumanClock.class
-lcc/main/TalkingClockUserInputApp.class
-lcc/main/TalkingClockApp.class
-lcc/cli/TalkingClockCli.class
-lcc/api/TalkingClockService.class
-lcc/helper/ClockHelper.class
