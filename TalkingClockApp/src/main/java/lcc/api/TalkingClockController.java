@@ -1,6 +1,6 @@
 package lcc.api;
 
-import lcc.api.DTO.HumanClock;
+import lcc.api.dto.HumanClock;
 import lcc.helper.ClockHelper;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
