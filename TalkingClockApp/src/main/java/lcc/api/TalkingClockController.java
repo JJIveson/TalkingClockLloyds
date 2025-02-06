@@ -15,7 +15,7 @@ public class TalkingClockController {
     ClockHelper clockHelper = new ClockHelper();
 
     @GetMapping("/humanTime")
-    public HumanClock HumanClock(@RequestParam(value = "time", required=false)LocalTime time) {
+    public HumanClock HumanClock(@RequestParam(value = "time", required=false) LocalTime time) {
         if(isNull(time)) {
             time = LocalTime.now();
         }
